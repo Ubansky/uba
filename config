@@ -3,20 +3,20 @@ EXTERN = EXTERN
 CONFIG = {
     Main_setting = {
         License = lisensi,
-        ItemID = 4584,
-        Pack = "world_lock_10_pack"
+        ItemID = 3004,
+        Pack = "pristine_hammer"
     },
     Farm_setting = {
         farm_world = farm,
-        farm_world_id = EXTERN.id_door,
+        farm_world_id = "tutut5",
         delay_harvest = 200,
         delay_plant = 200
     },
     Storage_setting = {
-        storage_seed = "perkebunanWT",
-        storage_seed_id = EXTERN.id_door,
-        storage_pack = "gudangWT",
-        storage_pack_id = EXTERN.id_door
+        storage_seed = "yusupack",
+        storage_seed_id = "tutut5",
+        storage_pack = "monipurp",
+        storage_pack_id = "tutut5"
     },
     Break_setting = {
         bool_break_other_world = false,
@@ -33,11 +33,11 @@ CONFIG = {
     Other_setting = {
         repeat_world = true,
         url_webhook = webhook_url,
-        short_webhook = false,
+        short_webhook = true,
         disable_webhook = false
     },
     Custom_gems_buypack = {
-        false, 20000 
+        false, 5000 
     },
     Avoid_nuke = {
         use_feature = false,
@@ -56,11 +56,11 @@ CONFIG.max_block_to_break = 160
 CONFIG.auto_wear_pickaxe = {
     use_feature = false,
     storage_pickaxe = "",
-    storage_pickaxe_id = EXTERN.id_door
+    storage_pickaxe_id = ""
 }
 
 CONFIG.Custom_delay = {
-    use_feature = false,
+    use_feature = true,
     delay_break = 160, -- millisecond
     delay_put = 100, -- millisecond
     delay_harvest = 80, -- millisecond

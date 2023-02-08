@@ -79,7 +79,7 @@ CONFIG.Custom_delay = {
 
 CONFIG.captcha_setting = {
     use_feature = true,
-    password_growid = "ilham123."
+    password_growid = "#Dailykun1"
 }
 
 CONFIG.offline_time = {

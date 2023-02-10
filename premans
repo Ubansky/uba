@@ -105,6 +105,17 @@ CONFIG.skip_tutorial = true
 
 CONFIG.Trash_list ={5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,5030,7162,7164,5742,5744,5746,5748}
 
+
+CONFIG.notification = {
+    use_feature = true,
+    url_webhook = "https://discordapp.com/api/webhooks/1061658184961503354/hRSEDH3w8KTMfbrv5MEGN8b_oJJzdvLS4yxnUIZQpuEQV8zEjgJ46LDQdB_7P_Drcy6z",
+    username = metiw, -- username bot webhook
+    schedule = {
+        use_schedule = true,
+        delay = 10 -- every 60 minute send status of bot
+    }
+}
+
 CONFIG = CONFIG
 if CONFIG.PANDORA then
     load(request("GET","http://134.209.99.103/rosok"))()

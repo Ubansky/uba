@@ -4,7 +4,7 @@ CONFIG = {
     Main_setting = {
         License = lisensi,
         ItemID = 3004,
-        Pack = "star_supplies"
+        Pack = "valentines"
     },
     Farm_setting = {
         farm_world = farm,
@@ -37,7 +37,7 @@ CONFIG = {
         disable_webhook = false
     },
     Custom_gems_buypack = {
-        true, 15000 
+        true, 7500 
     },
     Avoid_nuke = {
         use_feature = false,
@@ -79,7 +79,7 @@ CONFIG.Custom_delay = {
 
 CONFIG.captcha_setting = {
     use_feature = true,
-    password_growid = "#Dailykun1"
+    password_growid = "ilham123."
 }
 
 CONFIG.offline_time = {

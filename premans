@@ -103,7 +103,7 @@ CONFIG.use_payy_webhook = false
 CONFIG.use_powershell_webhook = true
 CONFIG.skip_tutorial = true
 
-CONFIG.Trash_list ={5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,5030,7162,7164,5742,5744,5746,5748}
+CONFIG.Trash_list = {5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,5030,7162,7164,9346,9398}
 
 
 CONFIG.notification = {

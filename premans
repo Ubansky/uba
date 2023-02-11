@@ -15,7 +15,7 @@ CONFIG = {
     Storage_setting = {
         storage_seed = "yusupack",
         storage_seed_id = "tutut5",
-        storage_pack = "monipurp",
+        storage_pack = "rempolgbcs",
         storage_pack_id = "tutut5"
     },
     Break_setting = {
@@ -105,6 +105,7 @@ CONFIG.skip_tutorial = true
 
 CONFIG.Trash_list = {5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,5030,7162,7164,9346,9398}
 
+CONFIG.max_slot_backpack = 36
 
 CONFIG.notification = {
     use_feature = true,

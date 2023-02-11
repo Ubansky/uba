@@ -15,7 +15,7 @@ CONFIG = {
     Storage_setting = {
         storage_seed = "yusupack",
         storage_seed_id = "tutut5",
-        storage_pack = "monipurp",
+        storage_pack = "REMPOLGBCS",
         storage_pack_id = "tutut5"
     },
     Break_setting = {

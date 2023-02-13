@@ -8,15 +8,15 @@ CONFIG = {
     },
     Farm_setting = {
         farm_world = farm,
-        farm_world_id = "EXTERN.door",
+        farm_world_id = EXTERN.door,
         delay_harvest = 200,
         delay_plant = 200
     },
     Storage_setting = {
         storage_seed = "yusupack",
-        storage_seed_id = "EXTERN.door",
+        storage_seed_id = EXTERN.door,
         storage_pack = EXTERN.storage,
-        storage_pack_id = "EXTERN.door"
+        storage_pack_id = EXTERN.door
     },
     Break_setting = {
         bool_break_other_world = false,

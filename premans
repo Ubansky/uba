@@ -4,7 +4,7 @@ CONFIG = {
     Main_setting = {
         License = lisensi,
         ItemID = 3004,
-        Pack = "valentines"
+        Pack = "star_supplies"
     },
     Farm_setting = {
         farm_world = farm,
@@ -37,7 +37,7 @@ CONFIG = {
         disable_webhook = false
     },
     Custom_gems_buypack = {
-        true, 7500 
+        true, 15000 
     },
     Avoid_nuke = {
         use_feature = false,
@@ -113,7 +113,7 @@ CONFIG.notification = {
     username = metiw, -- username bot webhook
     schedule = {
         use_schedule = true,
-        delay = 30 -- every 60 minute send status of bot
+        delay = 60 -- every 60 minute send status of bot
     }
 }
 

@@ -4,7 +4,7 @@ CONFIG = {
     Main_setting = {
         License = lisensi,
         ItemID = 3004,
-        Pack = "star_supplies"
+        Pack = "contact_lens"
     },
     Farm_setting = {
         farm_world = farm,

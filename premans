@@ -4,7 +4,7 @@ CONFIG = {
     Main_setting = {
         License = lisensi,
         ItemID = 3004,
-        Pack = "contact_lens"
+        Pack = "crime_wave"
     },
     Farm_setting = {
         farm_world = farm,

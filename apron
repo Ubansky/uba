@@ -82,15 +82,6 @@ CONFIG.captcha_setting = {
     password_growid = "ilham123."
 }
 
-CONFIG.offline_time = {
-    use_feature = true,
-    time_rest = {
-        {start = "00:00", finish = "00:10"},
-        {start = "08:10", finish = "08:20"},
-        {start = "12:20", finish = "12:30"},
-        {start = "19:00", finish = "19:10"},
-    }
-}
 
 CONFIG.use_payy_webhook = false
 CONFIG.use_powershell_webhook = true

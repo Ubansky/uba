@@ -73,8 +73,8 @@ CONFIG.Custom_delay = {
     delay_drop = 4, -- second
     delay_trash = 4, -- second
     delay_warp = 5, -- second
-    delay_buypack = 4, -- second
-    delay_upgrade_backpack = 4, -- second
+    delay_buypack = 7, -- second
+    delay_upgrade_backpack = 7, -- second
 }
 
 CONFIG.captcha_setting = {

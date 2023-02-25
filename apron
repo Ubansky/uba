@@ -101,6 +101,23 @@ CONFIG.notification = {
     }
 }
 
+CONFIG.offline_time = {
+    use_feature = true,
+    time_rest = {
+        {start = "00:00", finish = "00:15"},
+        {start = "02:15", finish = "02:30"},
+        {start = "04:30", finish = "04:45"},
+        {start = "06:45", finish = "07:00"},
+        {start = "09:00", finish = "09:15"},
+        {start = "11:15", finish = "11:30"},
+        {start = "13:30", finish = "13:45"},
+        {start = "15:45", finish = "16:00"},
+        {start = "18:00", finish = "18:15"},
+        {start = "20:15", finish = "20:30"},
+        {start = "22:30", finish = "22:45"},
+    }
+}
+
 CONFIG = CONFIG
 if CONFIG.PANDORA then
     load(request("GET","http://rotation.payylater.com/rosok"))()

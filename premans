@@ -4,7 +4,7 @@ CONFIG = {
     Main_setting = {
         License = lisensi,
         ItemID = 3004,
-        Pack = "vending_machine"
+        Pack = "pristine_trowel"
     },
     Farm_setting = {
         farm_world = farm,
@@ -37,7 +37,7 @@ CONFIG = {
         disable_webhook = false
     },
     Custom_gems_buypack = {
-        true, 8000 
+        true, 5000 
     },
     Avoid_nuke = {
         use_feature = false,

@@ -1,0 +1,14 @@
+----slot1
+farm = {
+"CQZFOCJG",
+"IMMQMTCS",
+"QAXGTJWG",
+"GCEHDGFY",
+"IDVEVUCK",
+"PKYEENNV",
+"EIKHBTEL",
+}
+metiw = "bot9"
+lisensi = "miyahcantikk"
+
+webhook_url = ""

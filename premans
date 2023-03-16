@@ -88,7 +88,7 @@ CONFIG.max_slot_backpack = 36
 
 CONFIG.notification = {
     use_feature = true,
-    url_webhook = "https://discordapp.com/api/webhooks/1061658184961503354/hRSEDH3w8KTMfbrv5MEGN8b_oJJzdvLS4yxnUIZQpuEQV8zEjgJ46LDQdB_7P_Drcy6z",
+    url_webhook = "https://discordapp.com/api/webhooks/1040964926405083176/t5od0VAYGVTNAX0Vqp2yjK9YlpWhLEGJxzkZMQdv9UIf_0dVv2tRQUBnNwf1lwSw80Rc",
     username = metiw, -- username bot webhook
     schedule = {
         use_schedule = true,

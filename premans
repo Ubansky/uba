@@ -34,7 +34,7 @@ CONFIG = {
         repeat_world = true,
         url_webhook = webhook_url,
         short_webhook = true,
-        disable_webhook = false
+        disable_webhook = true
     },
     Custom_gems_buypack = {
         true, 8000 

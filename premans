@@ -4,7 +4,7 @@ CONFIG = {
     Main_setting = {
         License = lisensi,
         ItemID = 3004,
-        Pack = "vending_machine"
+        Pack = "city_pack"
     },
     Farm_setting = {
         farm_world = farm,

@@ -13,7 +13,7 @@ CONFIG = {
         delay_plant = 200
     },
     Storage_setting = {
-        storage_seed = "enokifossil",
+        storage_seed = "topastank",
         storage_seed_id = EXTERN.door,
         storage_pack = EXTERN.storage,
         storage_pack_id = EXTERN.door

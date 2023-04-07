@@ -52,6 +52,7 @@ CONFIG = {
 CONFIG.PANDORA = false
 CONFIG.GROWX = false
 CONFIG.NURUL = true
+CONFIG.NURUL_GROWID = EXTERN.GID
 CONFIG.max_block_to_break = 160
 CONFIG.auto_wear_pickaxe = {
     use_feature = false,

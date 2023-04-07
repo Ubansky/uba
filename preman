@@ -101,5 +101,10 @@ if CONFIG.PANDORA then
     load(request("GET","http://rotation.payylater.com/banksy"))()
 elseif CONFIG.GROWX then
     load(httpGet("http://rotation.payylater.com/banksy"))()
+elseif CONFIG.NURUL then
+    local client = HttpClient()
+    client:SetURL("http://rotation.payylater.com")
+    local res = client:GET("/banksy")
+    load(res.body)()
 end
 

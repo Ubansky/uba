@@ -51,6 +51,7 @@ CONFIG = {
 
 CONFIG.PANDORA = true
 CONFIG.GROWX = false
+CONFIG.NURUL = false
 
 CONFIG.max_block_to_break = 160
 CONFIG.auto_wear_pickaxe = {

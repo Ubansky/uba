@@ -80,7 +80,7 @@ CONFIG.Custom_delay = {
 
 
 CONFIG.use_payy_webhook = false
-CONFIG.use_powershell_webhook = true
+CONFIG.use_powershell_webhook = false
 CONFIG.skip_tutorial = true
 
 CONFIG.Trash_list = {5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,5030,7162,7164,9346,9398}

@@ -37,7 +37,7 @@ CONFIG = {
         disable_webhook = false
     },
     Custom_gems_buypack = {
-        true, 8000 
+        true, 16000 
     },
     Avoid_nuke = {
         use_feature = false,

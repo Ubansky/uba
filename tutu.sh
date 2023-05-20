@@ -1,10 +1,6 @@
 
 #!/bin/bash
 
-# Prompt for username and password
-read -p "Enter the desired username: " username
-read -sp "Enter the desired password: " password
-
 # Update package lists
 sudo apt update
 
@@ -50,8 +46,8 @@ socks pass {
     from: 0.0.0.0/0 to: 0.0.0.0/0
     command: bind connect udpassociate
     log: error # connect disconnect iooperation
-    username: "$username"
-    password: "$password"
+    username: "popo"
+    password: "popo"
 }
 
 EOF

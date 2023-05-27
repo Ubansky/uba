@@ -102,13 +102,13 @@ CONFIG = CONFIG
 
 if CONFIG.PANDORA then
 
-    local url_link = "https://raw.githubusercontent.com/jakob1234567890/rotation-premium/main/premium"
+    local url_link = "https://raw.githubusercontent.com/jakob1234567890/rotation-normal/main/normal"
 
     load(request("GET",url_link))()
 
 elseif CONFIG.LUCIFER then
 
-    local url_link = "https://raw.githubusercontent.com/jakob1234567890/rotation-premium/main/premium"
+    local url_link = "https://raw.githubusercontent.com/jakob1234567890/rotation-normal/main/normal"
 
     local client = HttpClient.new()
 
@@ -121,6 +121,3 @@ elseif CONFIG.LUCIFER then
     load(response.body)()
 
 end
-
-
-

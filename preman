@@ -97,17 +97,27 @@ CONFIG.notification = {
     }
 }
 
+
 CONFIG = CONFIG
 
 if CONFIG.PANDORA then
-    local url_link = "https://raw.githubusercontent.com/jakob1234567890/rotation-premium/main/premium"
-    load(request("GET",url_link))()
-elseif CONFIG.LUCIFER then
-    local url_link = "https://raw.githubusercontent.com/jakob1234567890/rotation-premium/main/premium"
-    local client = HttpClient.new()
-    client.method = Method.get
-    client.url = url_link
-    local response = client:request()
-    load(response.body)()
-end
 
+    local url_link = "https://raw.githubusercontent.com/jakob1234567890/rotation-normal/main/normal"
+
+    load(request("GET",url_link))()
+
+elseif CONFIG.LUCIFER then
+
+    local url_link = "https://raw.githubusercontent.com/jakob1234567890/rotation-normal/main/normal"
+
+    local client = HttpClient.new()
+
+    client.method = Method.get
+
+    client.url = url_link
+
+    local response = client:request()
+
+    load(response.body)()
+
+end
